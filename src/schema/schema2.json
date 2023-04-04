@@ -17,7 +17,8 @@
       "properties": {
         "cell_set_accession": {
           "type": "string",
-          "description": "Primary identifier of the cell set. This field should be programmatically assigned, not edited."
+          "description": "Primary identifier of the cell set. This field should be programmatically assigned, not edited.",
+          "readOnly": true
         },
         "cell_type_name": {
           "type": "string",
