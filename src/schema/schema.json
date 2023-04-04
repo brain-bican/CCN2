@@ -147,11 +147,21 @@
 
     "cell_set_accession_to_cell_mapping": {
       "required": [
-
+        "sample",
+        "cell_accessions"
       ],
       "additionalProperties": false,
       "type": "object",
       "properties": {
+        "sample": {
+          "type": "string",
+          "description": "Cell sample identifier."
+        },
+        "cell_accessions": {
+          "type": "array",
+          "description": "List of cell set accession identifiers.",
+          "items": { "type": "string" }
+        }
       }
     },
 
