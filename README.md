@@ -1,3 +1,8 @@
+STATUS: DEPRECATED
+
+THIS WORK HAS BEEN SUPERCEDED BY THE [CELL ANNOTATION SCHEMA](https://github.com/cellannotation/cell-annotation-schema) (CAS), which includes  BICAN extension.  Pipelines and workflows described here are now implemented using [Taxonomy Development Tools](https://github.com/brain-bican/taxonomy-development-tools) & [CAS-Tools](https://github.com/cellannotation/cas-tools)
+
+
 # CCN2 - Developing a successor to the CCN taxonomy system
 
 ## CCN1
